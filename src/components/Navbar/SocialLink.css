@@ -1,0 +1,32 @@
+.social-links ul{
+    list-style: none;
+}
+.social-links ul li{
+    display: inline-block;
+    margin:11px;
+}
+.social-links ul li::before{
+    content: "";
+}
+.fab {
+    color: #b2b2b2;
+    font-size: 21px;
+}
+.social-links{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.fab:hover{
+    color:red;
+}
+@media screen and (max-width: 960px){
+    .social-links{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .social-links .fab{
+        font-size: 18px;
+    }
+}

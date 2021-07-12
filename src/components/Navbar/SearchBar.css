@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+  }
+  .overlay {
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+}
+
+.overlay-content {
+  position: relative;
+  top: 46%;
+  width: 70%;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin: auto;
+}
+
+.overlay input[type=text] {
+  padding: 20px;
+  font-size: 17px;
+  border: none;
+  float: left;
+  width: 70%;
+  background: white;
+}
+
+.overlay input[type=text]:hover {
+  background: #f1f1f1;
+}
+
+.overlay input[type=text]:focus{
+  outline: none;
+}
+
+.overlay button {
+  float: left;
+  width: 20%;
+  padding: 20px;
+  background: #ff4a52;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  color:white;
+  font-weight: bold;
+
+}
+
+.overlay .btnClose {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  cursor: pointer;
+  color: white;
+}
+
+
+.openBtn {
+    background: #f1f1f1;
+    border: none;
+    padding: 10px 15px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+.openSearch{
+  display: block;
+}
+
+.closeSearch{
+  display: none;
+}
+@media screen and (max-width: 960px){
+  .root{
+    display: none;
+  }
+}
