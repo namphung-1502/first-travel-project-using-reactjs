@@ -3,6 +3,7 @@ import './Carousel.css'
 import { SliderData } from './SliderData'
 
 
+
 export function Carousel(){
     const [x, setX] = useState(0)
 

@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+
+.where-goto{
+    background-color: #040E27;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+}
+
+.form-search{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.question{
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.form-search .where{
+    background-color: transparent;
+    border: 1px solid #363E52;
+    flex-basis: 200px;
+    height: 50px;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    padding-left: 15px;
+}
+
+.form-search .where:focus{
+    outline: none;
+}
+.form-control-inputDate{
+    background-color: transparent;
+    border: 1px solid #363E52;
+    flex-basis: 200px;
+    height: 50px;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    padding-left: 15px;
+}
+
+.form-control-inputDate:focus{
+    border: 1px solid #363E52;
+    outline: none;
+}
+
+.form-search .travelType{
+    box-sizing: content-box;
+    background-color: transparent;
+    border: 1px solid #363E52;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    color: #777;
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-indent: 5px;
+    
+}
+
+.form-search .travelType option{
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    border: 1px solid #040E27;
+    font-weight: bold;
+    padding: 5px;
+    margin: 5px auto;
+    border-radius: 5px;
+}
+
+.form-search .travelType:focus{
+    outline: none;
+    border: 1px solid #363E52;
+}
+
+.form-search .btn-search{
+    background-color: #dc3545;
+    color:white;
+    padding: 18px 41px;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: 0.3s;
+    outline: none;
+    border: none;
+}
+
+.form-search .btn-search:hover{
+    background-color: #1EC6B6;
+}
+
+@media screen and (max-width: 960px) {
+    .form-search, .where-goto{
+        display: flex;
+        flex-direction: column;
+    }
+   
+}
