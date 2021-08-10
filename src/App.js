@@ -4,6 +4,7 @@ import { Carousel } from './components/SlideCarousel/Carousel';
 import { SearchForm } from './components/SearchForm/SearchForm';
 import PopularDestination from './components/PopularDestination/PopularDestination';
 import NewLetter from './components/NewLetter/NewLetter';
+import PopularPlaces from './components/PopularPlaces/PopularPlaces';
 import { BrowserRouter as Router } from 'react-router-dom'
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <SearchForm/>
         <PopularDestination/>
         <NewLetter/>
+        <PopularPlaces/>
       </Router>
     </div>
   );
