@@ -14,7 +14,6 @@ export default function PopularPlaces(){
             <div className="flex-row-popular">
                 { Places.map((places, index) => {
                     return(
-                        // <PopularPlacesItem classnames="single-place" key={index} item={places}/>
                         <div className="single-place" key={index}>
                             <div className="thumb">
                                 <img src={places.image} />
@@ -43,6 +42,9 @@ export default function PopularPlaces(){
                         </div>
                     )
                 })}
+            </div>
+            <div className="btn-more-places">
+                <a href="#">More places</a>
             </div>
         </div>
     )

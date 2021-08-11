@@ -122,3 +122,26 @@
 .single-place:hover{
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
 }
+
+.popular_places_area .btn-more-places{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.popular_places_area .btn-more-places a{
+    background: #FF4A52;
+    color: #fff;
+    margin: 30px auto;
+    padding: 0;
+    text-decoration: none;
+    text-align: center;
+    padding: 13px 39px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.popular_places_area .btn-more-places a:hover{
+    background: #1EB6C6;
+}

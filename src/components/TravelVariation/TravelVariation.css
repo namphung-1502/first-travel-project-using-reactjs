@@ -1,0 +1,30 @@
+.travel_variation_area{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+    padding: 0;
+    gap: 20px;
+}
+
+.travel_variation_area  .single_travel{
+    flex: 1 1 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.travel_variation_area .single_travel h3{
+    font-size: 1.75rem;
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
+
+.travel_variation_area .single_travel p{
+    margin-bottom: 1rem;
+    color: #212529;
+}
