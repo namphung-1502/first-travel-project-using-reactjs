@@ -1,0 +1,36 @@
+.recent-trip-area{
+    margin-top: 50px;
+}
+.recent-trip-area .recent-trip-title h3{
+    font-size: 1.75rem;
+    color: rgb(33, 37, 41);
+    font-weight: 600;
+    text-align: center;
+}
+
+.recent-trip-area .trips{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 20px auto;
+    padding: 0;
+}
+.recent-trip-area .single-trip{
+    display: flex;
+    flex-direction: column;
+}
+
+.recent-trip-area .single-trip span{
+    color: rgb(33, 37, 41);
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.recent-trip-area .single-trip h3{
+    color: rgb(0, 123, 255);
+    font-size: 25px;
+    font-weight: 600;
+}

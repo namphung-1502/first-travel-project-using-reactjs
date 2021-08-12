@@ -8,6 +8,8 @@ import NewLetter from './components/NewLetter/NewLetter';
 import PopularPlaces from './components/PopularPlaces/PopularPlaces';
 import TravelVariation from './components/TravelVariation/TravelVariation';
 import CarouselAntd from './components/CarouselAntd/CarouselAntd';
+import RecentTrip from './components/RecentTrip/RecentTrip';
+import Footer from './components/Footer/Footer';
 import { BrowserRouter as Router } from 'react-router-dom'
 
 
@@ -23,6 +25,8 @@ function App() {
         <PopularPlaces/>
         <TravelVariation/>
         <CarouselAntd/>
+        <RecentTrip/>
+        <Footer/>
       </Router>
     </div>
   );

@@ -1,0 +1,99 @@
+.footer{
+    margin-top: 50px;
+   
+}
+
+.footer .footer-top h3{
+    font-size: 28px;
+    font-weight: 600;
+}
+.footer .footer-top{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+.footer .footer-top .info{
+    flex: 1 1 25%;
+    padding: 15px;
+}
+
+.footer .footer-top .info p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(33, 37 ,41);
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.footer .footer-top .info p a:hover{
+    text-decoration: underline;
+}
+
+.footer .footer-top .info ul{
+    list-style-type: none;
+  
+}
+
+.footer .footer-top .info ul li .fab{
+    color: rgb(0, 123, 255)
+}   
+
+.footer .footer-top .info ul li{
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.footer .footer-top .company{
+    flex: 1 1 20%;
+    padding: 15px;
+}
+
+.common-ul{
+    list-style-type: none;
+}
+
+.common-ul li{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 5px;
+ 
+}
+
+.common-ul li a {
+    color:rgb(33, 37 ,41);
+}
+
+.footer .footer-top .popular-destination-footer{
+    flex: 1 1 30%;
+    padding: 15px;
+}
+
+.footer .footer-top .instagram{
+    flex: 1 1 25%;
+    padding: 15px;
+    
+}
+
+.footer .footer-top .instagram .image-instagram{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.footer .copy-right{
+   padding-left: 20px;
+}
+
+.footer .copy-right p{
+    font-size: 16px;
+    font-weight: 400;
+
+}
