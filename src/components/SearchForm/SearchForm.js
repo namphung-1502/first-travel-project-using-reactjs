@@ -4,7 +4,6 @@ import "react-datepicker/dist/react-datepicker.css";
 import './SearchForm.css'
 
 export function SearchForm(){
-    const [type, setType] = useState('text');
     const [startDate, setStartDate] = useState(null);
     return(
         <div className="where-goto">
@@ -13,7 +12,6 @@ export function SearchForm(){
             </div>
             <div className="form-search">
                 <input type="text" placeholder="Where to go" className="where"/>
-                {/* <input type={type} placeholder="Date" onBlur={() => setType('text')} onFocus={() => setType('date')} className="date"/> */}
                 <DatePicker 
                     className="form-control-inputDate"
                     placeholderText="Date"

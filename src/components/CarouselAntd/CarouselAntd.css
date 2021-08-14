@@ -36,3 +36,15 @@
     font-weight: 500;
     margin-bottom: 8px;
 }
+
+@media screen and (max-width: 640px) {
+    .owl-stage-outer{
+        width: 80% !important;
+    }
+}
+
+@media screen and (min-width: 640px) and (max-width: 1000px) {
+    .owl-stage-outer{
+        width: 70% !important;
+    }
+}

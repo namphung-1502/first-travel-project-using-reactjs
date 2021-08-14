@@ -46,13 +46,24 @@ function Footer(){
                 <div className="instagram">
                     <h3>Instagram</h3>
                     <div className="image-instagram">
-                        <img className="image" src="https://preview.colorlib.com/theme/travelo/img/instagram/2.png.webp"/>
-                        <img className="image" src="https://preview.colorlib.com/theme/travelo/img/instagram/4.png.webp"/>
-                        <img className="image" src="https://preview.colorlib.com/theme/travelo/img/instagram/2.png.webp"/>
-                        <img className="image" src="https://preview.colorlib.com/theme/travelo/img/instagram/4.png.webp"/>
-                        <img className="image" src="https://preview.colorlib.com/theme/travelo/img/instagram/2.png.webp"/>
-                        <img className="image" src="https://preview.colorlib.com/theme/travelo/img/instagram/4.png.webp"/>
-
+                        <div className="item-image">
+                            <img className="image" src="https://preview.colorlib.com/theme/travelo/img/instagram/2.png.webp"/>
+                        </div>
+                        <div className="item-image">
+                            <img className="image" src="https://preview.colorlib.com/theme/travelo/img/instagram/4.png.webp"/>
+                        </div>
+                        <div className="item-image">
+                            <img className="image" src="https://preview.colorlib.com/theme/travelo/img/instagram/2.png.webp"/>
+                        </div>
+                        <div className="item-image">
+                            <img className="image" src="https://preview.colorlib.com/theme/travelo/img/instagram/4.png.webp"/>
+                        </div>
+                        <div className="item-image">
+                            <img className="image" src="https://preview.colorlib.com/theme/travelo/img/instagram/2.png.webp"/>
+                        </div>
+                        <div className="item-image">
+                            <img className="image" src="https://preview.colorlib.com/theme/travelo/img/instagram/4.png.webp"/>
+                        </div>
                     </div>
                 </div>
             </div>

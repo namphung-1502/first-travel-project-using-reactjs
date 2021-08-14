@@ -4,10 +4,12 @@
 }
 
 .newLetter_area{
-    /* background-image: url('https://preview.colorlib.com/theme/travelo/img/banner/xnewsletter.png.pagespeed.ic.Cg612iEyJd.png'); */
     background: linear-gradient(rgba(4,14,39,.6), rgba(4,14,39,.6)), 
             url("https://preview.colorlib.com/theme/travelo/img/banner/xnewsletter.png.pagespeed.ic.Cg612iEyJd.png");
     padding: 67px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container{
@@ -76,4 +78,38 @@
 
 .container .send_mail button:hover{
     background: #20c997;
+}
+
+@media screen and (max-width: 640px) {
+    .container{
+        width: 80%;
+    }
+    .newLetter_area .container, .newLetter_area .send_mail{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .newLetter_area .send_mail{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 640px) and (max-width: 820px) {
+    .container{
+        width: 80%;
+    }
+    .newLetter_area .container{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .newLetter_area .send_mail{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:820px) {
+    .container{
+        width: 80%;
+    }
 }
