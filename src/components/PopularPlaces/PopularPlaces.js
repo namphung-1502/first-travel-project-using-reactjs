@@ -36,9 +36,7 @@ export default function PopularPlaces(){
                                         <a href="#">{places.time}</a>
                                     </div>
                                 </div>
-                               
-                            </div>
-                            
+                            </div>  
                         </div>
                     )
                 })}

@@ -1,0 +1,245 @@
+body{
+    background-color: #F7FAFD;
+}
+.all-destination-area{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 130px auto;
+    padding: 0;
+    gap: 20px;
+}
+
+.all-destination-area .filter-area{
+    flex: 1 1 30%;
+}
+
+.filter-area .filter-bordered{
+    border: 1px solid #DEE2E7;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    gap:20px;
+    border-radius: 5px;
+}
+
+.filter-area h3{
+    font-size: 16px;
+    font-weight: 500;
+    color: #001D38;
+    margin-bottom: 26px;
+}
+
+.ant-select{
+    width: 100%;
+
+}
+.ant-select-selector{
+    height: 50px !important;
+    background-color: transparent;
+    font-size: 16px;
+    border: 1px solid #DEE2E7;
+}
+
+.ant-select-single.ant-select-show-arrow .ant-select-selection-item, 
+    .ant-select-single.ant-select-show-arrow .ant-select-selection-placeholder {
+    padding-top: 10px;
+}
+
+.ant-slider-step{
+    background-color: #FFD8DA;
+}
+
+.ant-slider-handle{
+    border: 2px solid #FF4A52;
+    background: #fff;
+    font-weight: normal;
+    width: 14px;
+    height: 16px;
+    border-radius: 5px
+}
+
+.ant-slider-handle.ant-tooltip-open {
+    border-color: #FF4A52;
+}
+.ant-slider:hover .ant-slider-handle:not(.ant-tooltip-open) {
+    border-color: #FF4A52;
+    
+}
+
+.filter-area .filter-bordered button{
+    background: #FF4A52;
+    color: #fff;
+    display: inline-block;
+    padding: 13px 39px;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    border: 0;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.filter-area .filter-bordered input[type="text"]{
+    background-color: transparent;
+    border: 0;
+    color: #7A838B;
+    font-weight: 400;
+    outline: none;
+}
+
+.filter-area .filter-bordered button:hover{
+    background-color: #1EC6B6;
+}
+
+.all-destination-area .destination-area{
+    flex: 1 1 70%;
+}
+
+.destination-area .flex-destination{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    padding: 0;
+    gap: 15px;
+}
+
+.flex-destination .single-destination{
+    flex-basis: 40%;
+    background-color: #fff;
+    position: relative;
+}
+
+.single-destination .thumbnail img{
+    vertical-align: middle;
+    width: 100%;
+}
+
+.single-destination .thumbnail a{
+    position: absolute;
+    background: #1EB6C6;
+    top: 20px;
+    left: 20px;
+    padding: 7px 18px 4px 18px;
+    border-radius: 18px;
+    color: #fff;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.single-destination .place-information{
+    padding: 27px 20px 27px 25px;
+}
+
+.single-destination .place-information a{
+    text-decoration: none;
+    font-size: 22px;
+    color: #040E27;
+    font-weight: 400;
+}
+
+.single-destination .place-information p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #7A838B;
+    margin-top: 2px;
+    margin-bottom: 7px;
+}
+
+.single-destination .place-information .rating{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.single-destination .place-information .rating span i{
+    font-size: 12px;
+    color: #FDAE5C;
+}
+
+.single-destination .place-information .rating span a{
+    font-size: 14px;
+    color: #7A838B;
+    margin-left: 5px;
+}
+
+.single-destination .place-information .rating .days i{
+    margin: 8px;
+}
+
+.single-destination .place-information .rating .days a{
+    font-size: 14px;
+    color: #7a838b;
+}
+
+.single-destination:hover .thumbnail a{
+    background-color: #dc3545;
+}
+
+.single-destination:hover .place-information .name{
+    color: #dc3545;
+}
+
+.single-destination:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+}
+
+.destination-area .more-places{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.destination-area .more-places a{
+    background: #FF4A52;
+    color: #fff;
+    margin: 30px auto;
+    padding: 0;
+    text-decoration: none;
+    text-align: center;
+    padding: 13px 39px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.destination-area .more-places a:hover{
+    background: #1EB6C6;
+}
+
+@media screen and (max-width: 640px) {
+    .all-destination-area{
+        flex-direction: column;
+        width: 90%;
+        margin: 60px auto;
+    }
+    .destination-area .flex-destination{
+        width: 100%;
+    }
+
+    .flex-destination > .single-destination{
+        flex: 1 1 100%;
+    }
+}
+
+@media screen and (min-width: 640px) and (max-width: 1000px) {
+    .all-destination-area{
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .destination-area .flex-destination{
+        width: 100%;
+    }
+
+    .flex-destination > .single-destination{
+        flex: 1 1 40%;
+    }
+}

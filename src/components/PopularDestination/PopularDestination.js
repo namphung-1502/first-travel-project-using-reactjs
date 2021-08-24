@@ -9,7 +9,6 @@ export default function PopularDestination(){
                 <p>Suffered alteration in some form, by injected humour or good day randomised booth anim 8-bit hella wolf moon beard words</p>
             </div>
             <div className="flex-row-container">
-                {console.log(typeof(Destination))}
                { Destination.map((item, index) => {
                    return(
                     <div className="flex-row-item" key={index}>

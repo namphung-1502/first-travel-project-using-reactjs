@@ -1,0 +1,26 @@
+*{
+    font-family: "Rubik", sans-serif;
+}
+.item-contact{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    gap: 20px;
+}
+
+.item-contact .fas{
+    font-size: 27px;
+    color: #8F9195;
+}
+
+.item-contact .info h3{
+    font-size: 16px;
+    color: #2a2a2a;
+    font-weight: 600;
+}
+
+.item-contact .info p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
